@@ -1,0 +1,803 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+    
+}
+
+.main-cont{
+    width:100%;
+    height:100vh;
+    font-family: sans-serif;
+    background:url('view-light-lamp-with-futuristic-design_23-2151037603.avif');
+    background-size:cover;
+    
+}
+.logo h1{
+    color:white;
+    padding-top: 10px;
+    border-bottom: 2px solid white;
+}
+nav{
+    padding:10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+  
+}
+nav ul{
+    display:flex;
+    gap:5vw;
+}
+nav ul li{
+    list-style-type:none;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+.menu-icon{
+    display:none;
+}
+.menu-icon i{
+    font-size: 25px;
+    color: white;
+}
+.btn1{
+    text-decoration: none;
+    color:white;
+    height:30px;
+    width:70px;
+    background-color: indianred;
+    border:none;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.info{
+    max-width:850px;
+    position:absolute;
+    top:30%;
+    margin-left:1.5px;
+    color:white;
+    text-align: center;
+}
+span{
+    color:rgb(217, 58, 5);
+}
+.info h1{
+    letter-spacing: 3px; 
+    font-size: 50px;
+    margin-bottom: 10px;
+
+}
+a:hover{
+    border-bottom: 1px solid white;
+}
+.info p{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.btn2{
+    height:40px;
+    width:120px;
+    border:none;
+    border-radius: 20px;
+    font: 1em sans-serif;
+    background-color:indianred;
+    color:white;
+    margin-top: 30px;
+ 
+}
+.about{
+        
+    
+    width:100%;
+    height: 40vh;
+   
+  
+    
+}
+.about h1{
+    margin-left: 15px;
+    font-size:40px;
+    color:black;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 4vw;
+}
+
+
+.a1{
+    width:100%;
+    height:50%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    text-align: left;
+    padding-left: 15px;
+    margin-top:40px;
+    font-size: 15px;
+    line-height: 2vw;
+    color:black;
+   
+}
+.h{
+   font: 1em sans-serif;
+   line-height: 2vw;
+}
+
+.bottom{
+    
+    width:100%;
+    height:20vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.d1{
+    width:30%;
+    height:100%;
+    text-align: center;
+    color:black;
+}
+.d1 h3{
+    font: 1em sans-serif;
+    color: black
+}
+
+.material{
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+   
+}
+.img{
+    width:50%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+}
+.i1{
+    width:50%;
+    height:100%;
+}
+.img1{
+    height:70%;
+    width:80%;
+    margin-left:20px;
+    border-radius: 10px;
+}
+.i2{
+    width:50%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+.img2{
+    height:40%;
+    width:90%;
+    margin-top:60px;
+    border-radius: 10px;
+}
+.img3{
+    height:40%;
+    width:90%;
+    margin-top:20px;
+    border-radius: 10px;
+}
+.m1{
+    width:50%;
+    height:100%;
+    padding-left: 90px;
+    margin-top: 40px;
+}
+.m2{
+    width:80%;
+    height:100%;
+}
+.b{
+   width:150px;
+   height:30px;
+   
+   font: 1.5em sans-serif;
+   border-radius: 15px;
+}
+.m2 h1{
+    letter-spacing: 2px;
+    margin-top: 40px;
+}
+.m2 h2{
+   
+    font:1.5em sans-serif;
+}
+.b1{
+    width:130px;
+    height:30px;
+    margin-top: 60px;
+    color:white;
+    background-color: black;
+    border-radius: 15px;
+    font: 1em sans-serif;
+}
+
+.product{
+    height:100vh;
+    width:100%;
+    background-color:black;
+  }
+  .top{
+    height:30%;
+    width:100%;
+    background-color:black;
+    text-align: center;
+  }
+  .top button{
+    width:180px;
+    height:30px;
+    border:1px solid white;
+    background-color: black;
+    margin-top: 40px;
+    color:white;
+    border-radius: 15px;
+  }
+  .top h1{
+    color:white;
+  }
+  .top h3{
+    color:white;
+    font: 1em sans-serif;
+  }
+  .bottom{
+    height:80%;
+    width:100%;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+  }
+  .c1 {
+    height:100%;
+    width:60%
+  }
+  .c1 h3{
+    color:white;
+    margin-left: 40px;
+  }
+  .c12{
+    height:70%;
+    width:80%;
+    margin-left: 30px;
+    border-radius: 15px;
+  }
+  .c13{
+    height:100%;
+    width:60%;
+  }
+ .c13 h3{
+    color:white;
+    margin-left: 40px;
+ }
+
+ 
+ .testimonials{
+    width:100%;
+    height:80vh;
+   background-color:white;
+   text-align: center;
+   padding-top: 40px;
+}
+.testimonials button{
+    height:30px;
+    width:120px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    font: 1em sans-serif;
+}
+.top1{
+    height:30%;
+    width:100%;
+    
+}
+.top1 h1{
+    margin-top: 20px;
+   
+}
+.bottom1{
+    height:70%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.client1{
+    height:60%;
+    width:50%;
+   display: block;
+    margin-left: 20px;
+    margin-right: 10px;
+    border:1px solid black;
+    border-radius: 15px;
+}
+.client1 h3{
+    text-align:left;
+    padding:30px;
+    font: 1em sans-serif;
+    display: block;
+}
+.client2{
+    height:60%;
+    width:50%;
+    display: block;
+    margin-left: 20px;
+    margin-right: 10px;
+    border:1px solid black;
+    border-radius: 15px;
+}
+.client2 h3{
+    text-align:left;
+    padding:30px;
+    font: 1em sans-serif;
+    display: block;
+}
+.client3{
+    height:60%;
+    width:50%;
+    display: block;
+    margin-left: 20px;
+    margin-right: 10px;
+    border:1px solid black;
+    border-radius: 15px;
+}
+.client3 h3{
+    text-align:left;
+    padding:30px;
+    font: 1em sans-serif;
+    display: block;
+}
+.client4{
+    height:60%;
+    width:50%;
+    display: block;
+    margin-left: 20px;
+    margin-right: 10px;
+    border:1px solid black;
+    border-radius: 15px;
+}
+.client4 h3{
+    text-align:left;
+    padding:30px;
+    font: 1em sans-serif;
+    display: block;
+}
+
+
+.faq{
+    width:100%;
+    height:60vh;
+   
+    text-align: center;
+}
+.faq2{
+    width:100%;
+    height: 30%;
+}
+.faq1{
+    width:80px;
+    height: 30px;
+    border-radius: 15px;
+   
+}
+.faq3{
+    width:80%;
+    height:70%;
+    text-align: left;
+    padding-left: 300px;
+}
+.faq3 h3{
+    border-bottom: 1px solid rgb(65, 65, 65);
+}
+#y1{
+    margin-left: 600px;
+}
+#y2{
+    margin-left: 310px;
+}
+#y3{
+    margin-left: 475px;
+}
+#y4{
+    margin-left: 450px;
+}
+
+.footer{
+    width:100%;
+    height:60vh;
+    background-color: black;
+    margin-top: 60px;
+}
+.f-t{
+    height:85%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+.f-t1{
+    height:100%;
+    width:40%;
+    
+    padding: 40px;
+    color:white
+}
+.f-t1 h1{
+    margin-bottom: 20px;
+}
+.f-t2{
+    height:100%;
+    width:30%;
+   
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding:40px;
+}
+.f-t3{
+    height:100%;
+    width:70%;
+
+    display:flex;
+    flex-direction: row;
+ 
+    
+}
+.f-t2 h2{
+    color:white;
+}
+.f-t2  a{
+    text-decoration: none;
+    color:white;
+}
+.f-b{
+    height:15%;
+    width:100%;
+    background-color: rgb(30, 29, 29);
+    color:white;
+    padding: 20px;
+}
+@media(max-width:700px){
+    .main-cont{
+        width:100vw;
+        height:100%;
+        font-family: sans-serif;
+        background:url('view-light-lamp-with-futuristic-design_23-2151037603.avif');
+        background-size:cover;
+        
+    }
+    .btn1{
+        margin-left: 40px;
+        margin-top: 10px;
+        border-radius: 10px;
+        width:60px;
+    }
+
+    .info{
+        max-width:850px;
+        position:absolute;
+        top:15%;
+        margin-left:4.5%;
+        color:white;
+       
+    }
+    span{
+        color:rgb(217, 58, 5);
+    }
+    .info h1{
+        letter-spacing: 3px; 
+        font-size: 50px;
+        margin-bottom: 20px;
+    
+    }
+    .info p{
+        
+        font-size: 13px;
+        line-height: 15px;
+        margin-bottom: 40px;
+    }
+    .btn2{
+        height:50px;
+        width:120px;
+        border:none;
+        border-radius: 20px;
+        font: 1em sans-serif;
+        background-color:indianred;
+        color:white;
+        margin-top: 60px;
+        
+    }
+       
+    nav ul{
+        position:absolute;
+        top:70px;
+        left:0;
+        right:0;
+        flex-direction: column;
+        text-align:center;
+        gap:20px;
+        overflow: hidden;
+       
+    }
+    
+    nav ul li{
+        padding:10px;
+    }
+   
+    .menu-icon{
+        display:block;
+        padding-left: 20px;
+        color: white;
+        margin-top: 10px;
+    }
+    #menuList{
+        transition: all  ;
+    }
+    #info1{
+        transition: all 0.5s;
+    }
+
+    .about{
+        
+    
+        width:100%;
+        height: 80%;
+    
+    }
+    .about h1{
+        margin-left: 15px;
+        font-size:40px;
+        color: black;
+        padding-top: 20px;
+    }
+    
+    
+    .a1{
+        width:100%;
+        height:50%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+        text-align: left;
+        padding-left: 15px;
+        margin-top:40px;
+        font-size: 15px;
+        line-height:6vw;
+        color:black
+       
+    }
+    .h{
+       font: 1em sans-serif;
+       line-height:6vw;
+    }
+
+    .material{
+        width:100%;
+        height:100vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .img{
+        width:100%;
+        height: 50%;
+        margin-top: -60px;
+    }
+    .i1{
+        width:100%;
+        height:100%;
+    }
+    .img2{
+        height:40%;
+        width:90%;
+        margin-top:40px;
+        border-radius: 10px;
+    }
+    .img3{
+        height:40%;
+        width:90%;
+        margin-top:20px;
+        border-radius: 10px;
+    }
+    .m1{
+        width:100%;
+        height:50%;
+        padding-left: 30px;
+        margin-top: 40px;
+    }
+    .m2{
+        width:90%;
+        height:100%;
+    }
+    .b{
+       width:150px;
+       height:30px;
+       
+       font: 1.em sans-serif;
+       border-radius: 15px;
+    }
+    .m2 h1{
+        letter-spacing: 1px;
+        margin-top: 40px;
+        width:100%;
+        text-align: left;
+    }
+    .m2 h2{
+        width:100%;
+        font:1.5em sans-serif;
+        text-align:initial
+    }
+    .b1{
+        width:130px;
+        height:30px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        color:white;
+        background-color: black;
+        border-radius: 15px;
+        font: 1em sans-serif;
+    }
+    
+
+    .product{
+        height:100vh;
+        width:100%;
+        background-color:black;
+        margin-top: 200px;
+      }
+
+      .c1 {
+        height:80%;
+        width:40%
+      }
+      .c1 h3{
+        color:white;
+        margin-top: 10px;
+        margin-left: 5px;
+      }
+      .c12{
+        height:50%;
+        width:100%;
+        margin-left: 5px;
+        border-radius: 15px;
+        
+      }
+      .c13{
+        display: none;
+      }
+     
+      .client1{
+        height:60%;
+        width:70%;
+
+        border:1px solid black;
+        border-radius: 15px;
+    }
+
+      .client1 h3{
+        
+      
+        font: 0.8em sans-serif;
+    }
+
+    .client2 h3{
+        
+      
+        font: 0.8em sans-serif;
+    }
+
+
+    .client3{
+        display: none;
+    }
+    .client4{
+        display: none;
+    }
+
+    .faq3{
+        width:90%;
+        height:70%;
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 50px;
+    }
+    .faq3 h2{
+        font-size: 3vw;
+    }
+
+    #y1{
+        margin-left: 160px;
+    }
+    #y2{
+        margin-left: 7px;
+    }
+    #y3{
+        margin-left: 96px;
+    }
+    #y4{
+        margin-left: 85px;
+    }
+
+
+    .footer{
+        width:100%;
+        height:50vh;
+        background-color: black;
+        
+    }
+    .f-t{
+        height:85%;
+        width:100%;
+       
+    }
+    .f-t1{
+        height:100%;
+        width: 27%;
+        padding-left: 1px;
+        padding-top: 20px;
+        margin-left: 10px;
+        color:white;
+        
+        
+    }
+    .f-t1 h1{
+        font-size: 4vw;
+    }
+    .f-t1 p{
+        font-size: 3vw;
+        line-height: 4vw;
+          
+    }
+    .f-t3{
+        height:100%;
+        width:73%;
+
+        display:flex;
+        flex-direction: row;
+     
+        
+    }
+    .f-t2{
+        height:100%;
+        width:35%;
+       padding-left: 7px;
+       padding-right: 1px;
+        padding-top: 18px;
+       
+        margin-left: 2px;
+  
+    }
+    .f-t2 h2{
+        color:white;
+        font-size: 4vw;
+        margin-bottom: 5.5vw;
+      
+
+    }
+    .f-t2  a{
+        text-decoration: none;
+        color:white;
+        font-size: 3vw;
+     
+    }
+    .f-b{
+        height:15%;
+        width:100%;
+        background-color: rgb(30, 29, 29);
+        color:white;
+        padding: 20px;
+    }
+}
